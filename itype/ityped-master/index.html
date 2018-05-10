@@ -1,0 +1,55 @@
+<html>
+
+<head>
+  <title>Ityped V.2</title>
+  <style>
+    .ityped-cursor {
+      font-size: 2.2rem;
+      opacity: 1;
+      -webkit-animation: blink 0.3s infinite;
+      -moz-animation: blink 0.3s infinite;
+      animation: blink 0.3s infinite;
+      animation-direction: alternate;
+    }
+
+    @keyframes blink {
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @-webkit-keyframes blink {
+      100% {
+        opacity: 0;
+      }
+    }
+
+    @-moz-keyframes blink {
+      100% {
+        opacity: 0;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div id="app">
+    <span id="ityped"></span>
+    <input type="text" id="ll">
+  </div>
+  <div id="appe">
+    <span id="itypedy"></span>
+  </div>
+  <script src="dist/index.js"></script>
+  <script>
+    ityped.init("#ityped")
+
+    ityped.init("#ll", { 
+      showCursor: false, 
+      disableBackTyping: true, 
+      placeholder: true
+    })
+  </script>
+</body>
+
+</html>
