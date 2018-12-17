@@ -48,6 +48,7 @@ p{
 /*botão em breve*/
 .breve{
 	margin-top: 10px;
+	margin-left: 5px;
 	font-family: 'Marvel', sans-serif;
 }
 .modal-header h5{
@@ -232,17 +233,15 @@ article{
 	font-family: 'Marvel', sans-serif;
 	text-align: center;
 	background-color: #2E93CB;
-	border-right: solid #007CC0 3px;
-	border-bottom: solid #007CC0 3px;
+	border-right: solid #007CC0 4px;
+	border-bottom: solid #007CC0 4px;
 	border-radius: 5px;
 	color:#80A1D4;
 	text-shadow: 1px 1px 1px #fff;
 	padding: 10px;
 	margin:50px; 
-	transition: all 1px;
-	
+	transition: all 1s;
 }
-
 /*mapa tradicional*/
 
 /*#map {
@@ -370,7 +369,7 @@ article{
 	{background-position: 100% 100%;}
 
 }
-.circulo{
+.circulo{ /*SETA DUPLA*/
 	position:relative;
 	top:35%;
 	left: 50%;
@@ -379,7 +378,7 @@ article{
 	height: 100px;
 	text-align: center;
 	line-height: 100px;
-	font-size: 80px;
+	font-size: 160px;
 
 }
 .circulo i{
@@ -417,7 +416,7 @@ article{
 
 }
 .sec3 h3{
-	border:solid #fff 2px;
+	border:solid #fff 4px;
 	border-radius: 5px;
 	padding: 8px;
 
@@ -427,8 +426,7 @@ article{
 	margin: 0 auto;
 	font-size: 40px;
 	text-shadow: 0px 1px 1px #000000;
-	margin-left: 155px;
-	margin-top: 10px;
+	
 
 }
 .sec3 p{
@@ -456,6 +454,68 @@ article{
 
 
 /*fim formulário*/
+
+/*midia indoor*/
+.indoor_e_email{
+  
+    background-image: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+.indoor{
+
+  padding-top: 50px;	
+	
+}
+.indoor b{
+  border-top: solid 2px #fff;
+  border-bottom: solid 2px #fff;
+  text-shadow: 0px 1px 1px #000000;
+  font-family: 'Anton', sans-serif;
+  font-size: 2em;
+  color: #fff;
+
+}
+.indoor p{
+	margin-top: 15px;
+	font-size: 30px;
+	color: #fff;
+	text-shadow: 1px 2px 1px #000000;
+	
+}
+
+.btn_indoor{
+	margin-top: 10px;
+	height: 200px;
+	background-image:url('../img/viaj_fundo2.jpg');
+    background-repeat: no-repeat;
+	background-size: contain;
+	background-attachment: fixed;
+	background-size: cover;
+	-o-background-size: cover;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+
+	
+}
+.btn_indoor p{
+	font-family: 'Anton', sans-serif;
+	font-size: 3em;
+	color: #fff;
+	text-shadow: 1px 1px 1px #000000;
+	transition: all 1s;
+}
+.btn_indoor p:hover{
+   text-shadow: 4px 4px 4px  #71C7ED;
+}
+.btn_indoor a {
+	margin-top: 20px;
+	font-size: 15px;
+	text-align: center;
+	text-decoration: none;
+	border-bottom: solid 2px #000000;
+}
+
+/*fim midia indoor*/
 #rodape{
 	background-color: #000000;
 	margin-top: -19px;
