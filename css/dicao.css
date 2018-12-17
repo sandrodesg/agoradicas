@@ -12,7 +12,7 @@ body{
 	
 overflow-x: hidden;
 }
-p,li,span,h3{font-family: 'Magra', sans-serif;color:#000000;}
+p,li,span,h3{list-style: none; font-family: 'Magra', sans-serif;color:#000000;}
 .letra{
 	font-size: 60px;
 	margin-top: 100px;
@@ -33,6 +33,7 @@ p{
 	text-shadow: 1px 1px 1px #000000;
 	padding: 5px;
   	color: #fff;
+  	
 }
 /*menu*/
 .navbar-inverse .navbar-nav>li>a{
@@ -62,7 +63,7 @@ body{
 
 .fundo{
 	position: relative;
-	background-image: url('../img_dicao/cao_perfil4.jpg');
+	background-image: url('../img_dicao/dog_cat.jpg');
 	background-repeat: no-repeat;
 	height: 650px;
 	width: 100%;
@@ -74,7 +75,7 @@ body{
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	z-index: 1;
-	animation: BackgroundGradient 60s ease infinite;
+	/*animation: BackgroundGradient 60s ease infinite;*/
 	
 }
 /*orientação de rotação da imagem*/
@@ -217,8 +218,13 @@ article{
 }
 
 .btnmodal2 b{
+	font-size: 25px;
 	position: relative;
-	top:20px;
+	top:16px;
+}
+.btnmodal2 i{
+	color: #fff;
+	text-shadow: none;
 }
 /*btn email*/
 .btnmodal2{
@@ -226,10 +232,28 @@ article{
 	height: 100px;
 	font-family: 'Magra', sans-serif;
 	text-align: center;
-	background-color: #B7D3F2;
+	text-decoration: none;
+	background-color: #B7D3F2;  
+	border-right: solid #A2C0DA 4px;
+	border-bottom: solid #A2C0DA 4px;
 	color:#80A1D4;
 	text-shadow: 1px 1px 1px #fff;
+	border-radius: 10px;
 	cursor: pointer;
+	transition: 1s all;
+}
+.btnmodal2:hover, b:hover{
+	background-color: #2EA7D0;
+	border-right: solid #007CC0 4px;
+	border-bottom: solid #007CC0 4px;	
+	text-shadow: none;
+	color:#fff;
+}
+.btnmodal2 b:hover{/*retirando o border da letra*/
+	
+	border-right: none;
+	border-bottom:none;	
+	
 }
 /*promoção*/
 /*btn mais promo*/
@@ -264,6 +288,10 @@ article{
 	font-size: 20px;
 	color: red;
 }
+.table li{
+	width: 35%;
+}
+
 /*subtitulo promocao de segunda a domingo....*/
 .sub_titulos{
 	color: #C0FAFA;
