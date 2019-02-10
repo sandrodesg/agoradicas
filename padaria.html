@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Encarte Digital</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" href="img_dicao/">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/encarte.css">
+  <link rel="stylesheet" href="anime/anime.css">
+  <style>
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+</style>
+  <body  id="topo" data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+    <!--menu-->
+    <nav class="navbar navbar-inverse navbar-fixed-top visible-sm visible-md visible-lg visible-xl hidden-xs">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand animated rubberBand" href="" title="Página Inícial"><img class="img-responsive" id="logo" src=""></a>
+          <!--data-wow-delay É O TEMPO EM QUE A ANIMAÇÃO INICIA DEPOIS QUE A PÁGINA ATUALIZA-->
+          <!--data-wow-duration É O TEMPO DE ANIMAÇÃO-->
+      
+        </div>
+        <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+      <ul class="nav navbar-nav">
+          <li><a href="#page-top"></a></li>
+
+     
+           <li>
+              <a href="index.html" title="Agora Dicas"><i class="fa fa-home" aria-hidden="true"></i> Início</a>
+            </li>
+            <li>
+              <a href="#quemsomos" title="Nossa Empresa"><i class="fa fa-users" aria-hidden="true"></i> Quem Somos</a>
+            </li>
+           
+                <li class="dropdown">
+              <a href="" class="dropdown-toggle hvr-hang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" title="Promoções"><i class="fa fa-tags" aria-hidden="true"></i>Promoções<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <!--<li><a class="hvr-bounce-out page-scroll" href="#" title="Alx Ótica">Alx</a></li>-->
+               <!--<li><a class="hvr-bounce-out " href="#" title="Cafeteria e Charutaria">Viajantes</a></li>-->
+               <!--<li><a class="hvr-bounce-out" href="#" title="Loja de Artigos">Lembrate</a></li>-->
+               <li><a class="hvr-bounce-out" href="limpeza.html" title="">LIMPEZA</a></li>
+               <li><a class="hvr-bounce-out" href="alimento.html" title="">ALIMENTO</a></li>
+               <li><a class="hvr-bounce-out" href="carne.html"  title="">CONGELADOS</a></li>
+               <li><a class="hvr-bounce-out" href="perfumaria.html" title="">PERFUMARIA</a></li>
+               <li><a class="hvr-bounce-out" href="bebida.html" title="">BEBIDA</a></li>
+               <li><a class="hvr-bounce-out" href="padaria.html" title="">PADARIA</a></li>
+
+             </ul>
+           </li>
+           
+           <li>
+            <a  href="#contato" title="Nossos Contatos"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Contato</a>
+          </li>
+
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <!--//menu-->
+
+  <!--menu para dispositivos moveis-->
+  <nav class="navbar navbar-inverse navbar visible-xs hidden-md hidden-sm hidden-lg hidden-xl">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao_peq">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--data-wow-delay É O TEMPO EM QUE A ANIMAÇÃO INICIA DEPOIS QUE A PÁGINA ATUALIZA-->
+        <!--data-wow-duration É O TEMPO DE ANIMAÇÃO-->
+
+      </div>
+      <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao_peq">
+         <ul class="nav navbar-nav navbar-right">
+          <li><a href="#page-top"></a></li>
+
+     
+           <li>
+              <a href="index.html" title="Agora Dicas"><i class="fa fa-home" aria-hidden="true"></i> Início</a>
+            </li>
+            <li>
+              <a href="#quemsomos" title="Nossa Empresa"><i class="fa fa-users" aria-hidden="true"></i> Quem Somos</a>
+            </li>
+           
+            
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle hvr-hang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" title="Promoções"><i class="fa fa-tags" aria-hidden="true"></i>Promoções<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <!--<li><a class="hvr-bounce-out page-scroll" href="#" title="Alx Ótica">Alx</a></li>-->
+               <!--<li><a class="hvr-bounce-out " href="#" title="Cafeteria e Charutaria">Viajantes</a></li>-->
+               <!--<li><a class="hvr-bounce-out" href="#" title="Loja de Artigos">Lembrate</a></li>-->
+               <li><a class="hvr-bounce-out" href="limpeza.html" title="">LIMPEZA</a></li>
+               <li><a class="hvr-bounce-out" href="alimento.html" title="">ALIMENTO</a></li>
+               <li><a class="hvr-bounce-out" href="carne.html"  title="">CONGELADOS</a></li>
+               <li><a class="hvr-bounce-out" href="perfumaria.html" title="">PERFUMARIA</a></li>
+               <li><a class="hvr-bounce-out" href="bebida.html" title="">BEBIDA</a></li>
+               <li><a class="hvr-bounce-out" href="padaria.html" title="">PADARIA</a></li>
+
+             </ul>
+           </li>
+      
+           <li>
+            <a  href="#contato" title="Nossos Contatos"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Contato</a>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--//menu-->
+
+
+
+<!--cabeçalho fixo-->
+<header id="inicio" class="fundo">
+  <div class="centro">
+    <div class="text textbloco">
+      
+    </div>
+   <div class=" super text textbloco wow zoomInDown" data-wow-delay="0.2s" href="#page-top">
+   Supermercado Niterói
+   </div>
+
+   <div class="cia text textbloco wow fadeIn" data-wow-duration="0.3s" data-wow-delay="0.7s">
+  
+   </div>
+</div>
+</header>
+
+
+<div class="container-fluid">
+  <!--caixa-->
+
+<!--limpeza-->
+<div class="row">
+  <div class="container subtextos">
+    <div class="col-md-12 wow fadeInRight" id="promocao">
+      <hr>
+      <img class="fig" src="img_encarte/car.png" alt="">
+      <h2 class="text-center"> Encarte Padaria</h2>
+      
+      <hr>
+      
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/paoforma seven.png" alt="" title="">
+        <h3 class="text-center">Pão de forma seven</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$5,99</h5>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/pao integal panco.png" alt="" title="">
+        <h3 class="text-center">Panco integral</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$5,49</h5>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/mini bolo avela.jpg" alt="" title="">
+        <h3 class="text-center">Mini bolo avelã</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$15,99</h5>
+      </div>
+      
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/pao sirio.png" alt=" " title="">
+        <h3 class="text-center">pão sírio</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$5,99</h5>
+      </div>
+
+       <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/pao int.png" alt="" title="">
+        <h3 class="text-center">Pão integral 100g</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$ 1,50</h5>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/minas.png" alt="" title="">
+        <h3 class="text-center">Queijo minas 100g</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$5,25</h5>
+      </div>
+
+      <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/presunto-fatiado-png-2.png" alt="" title="">
+        <h3 class="text-center">Presunto sadia 100g</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$2,99</h5>
+      </div>
+
+       <div class="col-md-3 col-sm-6">
+        <img class="img-responsive" src="img_encarte/prato.png" alt="" title="">
+        <h3 class="text-center">Queijo prato 100g</h3>
+        <!-- <h5 class="text-center">De R$45,90</h5> -->
+        <h5 class="text-center desc">R$3,90</h5>
+      </div>
+     
+      
+    </div>
+  
+  </div>
+<!--para fecha o acordeon tirei o "in" class="panel-collapse collapse >>>in<<<"-->
+  <div class="row">
+    <div class="container">
+      <div class="">
+          <div class="panel-group" id="accordion" role="tablist" aria-labelledby="headingOne">
+    <div class="panel">
+      <div class="panel-heading" role="tab" id="headingOne">
+      <h4 class="panel-title text-center">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne" title="Abrir">
+        <i class="fa fa-hand-o-right" aria-hidden="true">
+        <span>Mais Produtos</span></i>
+        </a>
+      </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingOne">
+        <div class="container subtextos">
+    <div class="col-md-12 wow fadeInRight" id="promocao">
+      
+      
+      <hr>
+      
+     <!-- mais produtos -->
+
+     
+      
+    </div>
+  
+  </div>
+      </div>
+    </div>
+    
+   
+    </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</div>
+<!--fim limpeza-->
+
+
+<section id="rodape">
+
+  <footer id="contato">
+    <div class="row">
+      <div class="container">
+        <div class="col-md-4">
+          <h4 class="text-center">Contato</h4>
+          <ul>
+
+            <li>Supermercado<li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            3252-0645</li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            3887-5555</li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            2209-3542</li>
+            <li>Endereço</li>
+            <li>Niterói Shopping
+                R. da Conceição, 188 - <br>Centro, Niterói - RJ, 24020-094</li>
+           
+           
+          </ul>
+
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-center">Nossa Empresa</h4>
+
+          <p>SUPERMERCADO NITERÓI é uma empresa especializadas em oferecer melhores produtos para todo seguimento.</p>
+          
+        </div>
+        <div class="col-md-4">
+          
+          <!--<h5>Viajantes</h5>-->
+          <!--<h5>Alx Ótica</h5>-->
+          <!--<h5>Lembrarte</h5>-->
+          <!--<h5>Pomar da Barra</h5>-->
+          <!--<h5>Sports Rio</h5>-->
+          <img class="img-responsive" src="img_encarte/car.png" title="Logo mercado">
+          
+        </div>
+      </div>
+    </div>
+    <div class="text-center fim_agora">
+      <img src="img/Agora_mini.jpg">
+
+    </div>
+    <div class="text-center fim">
+      <a href="#topo"><i class="fa fa-angle-double-up wow fadeInUp infinite" data-wow-duration="3s" data-wow-delay="0.7s" title="Voltar ao Topo"></i></a>
+      <h5>Desenvolvido por <a href="www.agoradicas.com.br" tile="Agora Dicas">Agora Dicas</a></h5>
+
+      <h5>©agoradicas 2018 | tecnologia | marketing digital | publicidade</h5>
+    </div>
+  </footer>
+</section>
+
+<!--//segurança-->
+
+<!--rodape-->   
+
+
+<!--//rodape--> 
+<script type="text/javascript" src="typed.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script><!--iniciando wow.js-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="js/datapoints.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="//code.jquery.com-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="js/.js"></script>
+<script type="text/javascript" src="js/animacao.js"></script>
+<script type="text/javascript" src="js/main.js"></script><!--suavidade do scrol-->
+<script type="text/javascript" src=js/meumapa.js></script>
+
+  
+   </body>
+   </html>

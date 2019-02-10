@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<title>Encarte Digital</title>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <link rel="icon" href="img_dicao/">
+  <link rel="stylesheet" href="css/bootstrap.min.css" media="screen">
+  <link href="Hover-master/css/hover.css" rel="stylesheet" media="all">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/encarte.css">
+  <link rel="stylesheet" href="anime/anime.css">
+<style>
+  .dropdown:hover>.dropdown-menu{
+    display: block;
+  }
+</style>
+  <body  id="topo" data-spy="scroll" data-target=".menu-navegacao" data-offset="80">
+    <!--menu-->
+    <nav class="navbar navbar-inverse navbar-fixed-top visible-sm visible-md visible-lg visible-xl hidden-xs">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand animated rubberBand" href="" title="Página Inícial"><img class="img-responsive" id="logo" src=""></a>
+          <!--data-wow-delay É O TEMPO EM QUE A ANIMAÇÃO INICIA DEPOIS QUE A PÁGINA ATUALIZA-->
+          <!--data-wow-duration É O TEMPO DE ANIMAÇÃO-->
+      
+        </div>
+        <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao">
+      <ul class="nav navbar-nav">
+          <li><a href="#page-top"></a></li>
+
+     
+           <li>
+              <a href="index.html" title="Agora Dicas"><i class="fa fa-home" aria-hidden="true"></i> Início</a>
+            </li>
+            <li>
+              <a href="#quemsomos" title="Nossa Empresa"><i class="fa fa-users" aria-hidden="true"></i> Quem Somos</a>
+            </li>
+           
+               <li class="dropdown">
+              <a href="" class="dropdown-toggle hvr-hang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" title="Promoções"><i class="fa fa-tags" aria-hidden="true"></i>Promoções<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <!--<li><a class="hvr-bounce-out page-scroll" href="#" title="Alx Ótica">Alx</a></li>-->
+               <!--<li><a class="hvr-bounce-out " href="#" title="Cafeteria e Charutaria">Viajantes</a></li>-->
+               <!--<li><a class="hvr-bounce-out" href="#" title="Loja de Artigos">Lembrate</a></li>-->
+               <li><a class="hvr-bounce-out" href="limpeza.html" title="">LIMPEZA</a></li>
+               <li><a class="hvr-bounce-out" href="alimento.html" title="">ALIMENTO</a></li>
+               <li><a class="hvr-bounce-out" href="carne.html"  title="">CARNES</a></li>
+               <li><a class="hvr-bounce-out" href="perfumaria.html" title="">PERFUMARIA</a></li>
+               <li><a class="hvr-bounce-out" href="bebida.html" title="">BEBIDA</a></li>
+               <li><a class="hvr-bounce-out" href="padaria.html" title="">PADARIA</a></li>
+
+             </ul>
+           </li>
+           
+            <li>
+              <a href="#mapa" title="Nossa Localização"><i class="fa fa-map-marker" aria-hidden="true"></i> Localização</a>
+            </li>
+
+           <li>
+            <a  href="#contato" title="Nossos Contatos"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Contato</a>
+          </li>
+
+      </ul>
+      </div>
+    </div>
+  </nav>
+  <!--//menu-->
+
+  <!--menu para dispositivos moveis-->
+  <nav class="navbar navbar-inverse navbar visible-xs hidden-md hidden-sm hidden-lg hidden-xl">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu-navegacao_peq">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <!--data-wow-delay É O TEMPO EM QUE A ANIMAÇÃO INICIA DEPOIS QUE A PÁGINA ATUALIZA-->
+        <!--data-wow-duration É O TEMPO DE ANIMAÇÃO-->
+
+      </div>
+      <div class="collapse navbar-collapse menu-navegacao" id="menu-navegacao_peq">
+         <ul class="nav navbar-nav navbar-right">
+          <li><a href="#page-top"></a></li>
+
+     
+           <li>
+              <a href="index.html" title="Agora Dicas"><i class="fa fa-home" aria-hidden="true"></i> Início</a>
+            </li>
+            <li>
+              <a href="#quemsomos" title="Nossa Empresa"><i class="fa fa-users" aria-hidden="true"></i> Quem Somos</a>
+            </li>
+           
+            
+            <li class="dropdown">
+              <a href="" class="dropdown-toggle hvr-hang" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="true" title="Promoções"><i class="fa fa-tags" aria-hidden="true"></i>Promoções<span class="caret"></span></a>
+              <ul class="dropdown-menu">
+               <!--<li><a class="hvr-bounce-out page-scroll" href="#" title="Alx Ótica">Alx</a></li>-->
+               <!--<li><a class="hvr-bounce-out " href="#" title="Cafeteria e Charutaria">Viajantes</a></li>-->
+               <!--<li><a class="hvr-bounce-out" href="#" title="Loja de Artigos">Lembrate</a></li>-->
+               <li><a class="hvr-bounce-out" href="limpeza.html" title="">LIMPEZA</a></li>
+               <li><a class="hvr-bounce-out" href="alimento.html" title="">ALIMENTO</a></li>
+               <li><a class="hvr-bounce-out" href="carne.html"  title="">CARNES</a></li>
+               <li><a class="hvr-bounce-out" href="perfumaria.html" title="">PERFUMARIA</a></li>
+               <li><a class="hvr-bounce-out" href="bebida.html" title="">BEBIDA</a></li>
+               <li><a class="hvr-bounce-out" href="padaria.html" title="">PADARIA</a></li>
+
+             </ul>
+           </li>
+           
+            <li>
+              <a href="#mapa" title="Nossa Localização"><i class="fa fa-map-marker" aria-hidden="true"></i> Localização</a>
+            </li>
+
+           <li>
+            <a  href="#contato" title="Nossos Contatos"><i class="fa fa-volume-control-phone" aria-hidden="true"></i> Contato</a>
+          </li>
+
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--//menu-->
+
+<!--cabeçalho fixo-->
+<header id="inicio" class="fundo">
+  <div class="centro">
+    <div class="text textbloco">
+      
+    </div>
+   <div class=" super text textbloco wow zoomInDown" data-wow-delay="0.2s" href="#page-top">
+   Supermercado Niterói
+   </div>
+
+   <div class="cia text textbloco wow fadeIn" data-wow-duration="0.3s" data-wow-delay="0.7s">
+  
+   </div>
+</div>
+</header>
+
+
+<div class="container-fluid">
+  <!--caixa-->
+  <section id="quemsomos">
+    <div class="row"> 
+      <div class="texto col-md-6 col-md-offset-3 col-xs-10 col-xs-offset-1">
+        <h2 class="text-center titulo">Sobre Nós</h2>
+        <h3 class="text-center titulo">Bem-vindos ao supermercado niterói!</h3>
+        <div class="col-md-6"><img class="img-responsive wow fadeInLeft comercio" alt="carrinho" src="img_encarte/car.png"></div>
+        <div class="col-md-6"> <p class=" wow fadeInRight">Somos um varejo especializadas em oferecer melhores produtos em vários seguimentos.</div>
+
+
+      </div>
+    </span>
+  </div>  
+</section>
+
+<!--entrega a domicílio-->
+ <div id="ent_pro" class="container">
+  <div class="col-md-12">
+    <hr>
+ <h2 class="text-center titulo"><i class="fa fa-group"></i>Locais de entrega</h2>
+ <hr>
+  <div  class="col-md-3"></div>
+ <div  class="col-md-3 entrega">
+<img class="img-responsive" src="img_dicao/entrega.png">
+</div>
+<div  class="col-md-4">
+<h3 class="text-center">Entrega em Domicílio</h3>
+
+ <p>Voçê cliente pode solicita o produto em sua casa.Entrega rápida e eficiente.</p>
+  <h3>Disk Entregas</h3>
+  <p class="tel">3252-4554 | 4543-3542 | 3345-5555</p> 
+  <p>Niterói Shopping
+                R. da Conceição, 188 - <br>Centro, Niterói - RJ, 24020-094</p>  
+<!--entrega-->
+ <div class="panel-group" id="accordion5" role="tablist" aria-multiselectable="true">
+    <div class="panel">
+      <div class="panel-heading" role="tab" id="headingFive">
+      <h4 class="panel-title text-center">
+        <a class="btn btn-primary" role="button" data-toggle="collapse" data-parent="#accordion5" href="#collapseFive" aria-expanded="true" aria-controls="collapseFive" title="Abrir">
+        <i class="fa fa-hand-o-right" aria-hidden="true">
+        <span>Locais de Entrega</span></i>
+        </a>
+      </h4>
+      </div>
+<div id="collapseFive" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingFive">
+  <div class="panel-body">
+    <div class="panel panel-info">
+        <div class="panel-heading">
+          <h3  class="text-center"><b>Bairros</b></h3>
+        </div>
+         <p class="text-center">Fátima</p>
+         <p class="text-center">Morro do estado</p>
+         <p class="text-center">São domingos</p>
+         <p class="text-center">Gragoatá</p>
+         <p class="text-center">Icaraí</p>
+         <p class="text-center">Pé pequeno</p>
+         <p class="text-center">Santa ros</p>
+         <p class="text-center">São lourenço</p>
+         <p class="text-center">Vital brasil</p>
+         
+      </div>
+
+    </div>
+        
+  </div>
+  
+</div>
+
+</div> 
+</div>
+
+</div>
+</div>
+<!--entrega a domicílio-->
+<!--PARCEIROS-->
+<div class="row fundocao ">
+  <div id="dicas" class="container">
+  <div class="col-md-12 subtextos">
+    <hr>
+    <h2 class="text-center">
+      <i class="fa fa fa-paw fa-1x wow fadeIn"></i>Parceiros
+    </h2>
+    <hr>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/perdigao.png">
+   </div>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/omo.png">
+   </div>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/uniao.png">
+   </div>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/tramontina-logo.png">
+   </div>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/tres.png">
+   </div>
+   <div class="col-md-4">
+     <img class="img-responsive" src="img_encarte/comfort.png">
+   </div>
+
+  
+  </div>
+  </div>
+</div>
+<!--veterinario fim-->
+
+<!--mapa-->
+<section id="mapa"><!--esse div mapa esta modifica o infowindow tbm-->
+
+ <div class="subtextos">
+  <h2 class="text-center"><i class="fa fa-map-o"></i>Nossa Localização</h2>
+</div>
+
+   <div class="mapa col-md-12">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3675.5010082726512!2d-43.12082204902503!3d-22.89488444312975!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9983c252796c2d%3A0xddf071f69c4b73dd!2sNiter%C3%B3i+Shopping!5e0!3m2!1spt-BR!2sbr!4v1548880010471" width="100%" height="600" frameborder="0" style="border:0" allowfullscreen></iframe>
+  </div>
+ 
+
+</section>
+
+<!--mapa-->
+
+
+<div class="row fundo2">
+  <div class="container">
+  <div class="col-md-12">
+    <h1 class="text-center type">mercado niterói <br><span class="ityped"></span></h1>
+    <script type="text/javascript" src="typed.js"></script>
+    <script type="text/javascript">
+      window.ityped.init(document.querySelector('.ityped'),{
+        strings:['Volte...','sempre!!!'],
+        typeSpeed: 100,
+        backSpeed: 100,
+        loop:true
+        
+      })
+    </script>
+  
+  </div>
+  </div>
+</div>
+<!--segurança-->   
+<section id="rodape">
+
+  <footer id="contato">
+    <div class="row">
+      <div class="container">
+        <div class="col-md-4">
+          <h4 class="text-center">Contato</h4>
+          <ul>
+
+            <li>Supermercado<li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            3252-0645</li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            3887-5555</li>
+            <li><i class="fa fa-mobile" aria-hidden="true"></i>
+            2209-3542</li>
+            <li>Endereço</li>
+            <li>Niterói Shopping
+                R. da Conceição, 188 - <br>Centro, Niterói - RJ, 24020-094</li>
+           
+           
+          </ul>
+
+        </div>
+        <div class="col-md-4">
+          <h4 class="text-center">Nossa Empresa</h4>
+
+          <p>Supermercado Niterói é uma empresa especializadas em oferecer melhores produtos para todo seguimento.</p>
+          
+        </div>
+        <div class="col-md-4">
+          
+          <!--<h5>Viajantes</h5>-->
+          <!--<h5>Alx Ótica</h5>-->
+          <!--<h5>Lembrarte</h5>-->
+          <!--<h5>Pomar da Barra</h5>-->
+          <!--<h5>Sports Rio</h5>-->
+          <img class="img-responsive" src="img_encarte/compra.png" title="Logo mercado">
+          
+        </div>
+      </div>
+    </div>
+    <div class="text-center fim_agora">
+      <img src="img/Agora_mini.jpg">
+
+    </div>
+    <div class="text-center fim">
+      <a href="#topo"><i class="fa fa-angle-double-up wow fadeInUp infinite" data-wow-duration="3s" data-wow-delay="0.7s" title="Voltar ao Topo"></i></a>
+      <h5>Desenvolvido por <a href="www.agoradicas.com.br" tile="Agora Dicas">Agora Dicas</a></h5>
+
+      <h5>©agoradicas 2018 | tecnologia | marketing digital | publicidade</h5>
+    </div>
+  </footer>
+</section>
+
+<!--//segurança-->
+
+<!--rodape-->   
+
+
+<!--//rodape--> 
+<script type="text/javascript" src="typed.js"></script>
+<script src="js/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script><!--iniciando wow.js-->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+<script type="js/datapoints.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="//code.jquery.com-2.2.1.min.js"></script>
+<script type="text/javascript" src="js/jquery.cycle2.min.js"></script>
+<script type="text/javascript" src="js/.js"></script>
+<script type="text/javascript" src="js/animacao.js"></script>
+<script type="text/javascript" src="js/main.js"></script><!--suavidade do scrol-->
+<script type="text/javascript" src=js/meumapa.js></script>
+
+  
+   </body>
+   </html>
